@@ -18,6 +18,5 @@ Pod::Spec.new do |s|
   s.preserve_paths = 'LICENSE', 'README.md', 'package.json'
   s.source_files   = 'ios/TPSStripe/**/*.{h,m}'
 
-  s.dependency 'React'
   s.dependency 'Stripe', '~> 11.2.0'
 end
